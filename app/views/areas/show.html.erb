@@ -1,0 +1,13 @@
+<p>
+  <b>Nombre:</b>
+  <%=h @area.nombre %>
+</p>
+
+<p>
+  <b>Abrevicion:</b>
+  <%=h @area.abrevicion %>
+</p>
+
+
+<%= link_to 'Editar', edit_area_path(@area) %> |
+<%= link_to 'Back', areas_path %>
