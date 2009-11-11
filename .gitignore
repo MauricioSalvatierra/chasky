@@ -1,0 +1,8 @@
+nbproject/*
+*.swp
+*.swo
+*~
+*.sqlite
+log/*
+tmp/*
+!pub.txt
